@@ -1,0 +1,109 @@
+<html>
+  <style>
+    .boxes {
+      width: 20%;
+      margin: 10px 5px;
+      padding: 4px;
+      text-align: center;
+      background-color: #f1f1f1;
+      border: 1px solid #f1f1f1;
+      display: inline-block;
+    }
+    .boxes:hover {
+      border: 1px solid #ccc;
+    }
+    .center {
+      margin: auto;
+      text-align: center;
+      width: 50%;
+      padding: 10%;
+    }
+    /*.navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
+    .footerbar {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }*/
+    img {
+      /*border: 1px solid #000000;*/
+      padding: 20px;
+    }
+    .submit {
+      width: 500px;
+      height: 40px;
+      border: 1px solid #f1f1f1;
+      border-radius: 50px;
+      padding: 20px 30px 20px 30px;
+      background-image: url(pics/glass.png);
+      background-position: 10px;
+      background-repeat: no-repeat;
+      background-size: 15px;
+    }
+    .submit:hover {
+      border: 1px solid #ccc;
+    }
+    .submit:focus {
+      outline: none;
+      border: 1px solid #ccc;
+    }
+    ul {
+      list-style-type: none;
+    }
+    li {
+      float: left;
+    }
+    li a {
+      display: block;
+      text-decoration: none;
+      text-align: center;
+      padding: 10px 10px;
+    }
+    .navbottom {
+      bottom: 100px;
+    }
+  </style>
+
+  <head>
+    <title>Google</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="">About</a></li>
+        <li><a href="">Store</a></li>
+        <li style="float: right"><a href="">Sign in box</a></li>
+        <li style="float: right"><a href="">Picture</a></li>
+        <li style="float: right"><a href="">Images</a></li>
+        <li style="float: right"><a href="">Gmail</a></li>
+      </ul>
+    </nav>
+    <main class="center">
+      <div class="img">
+        <img src="pics/google.png" alt="Google" />
+      </div>
+      <form>
+        <input type="text" class="submit" placeholder="Search Google" />
+      </form>
+      <a href="https://www.google.com/"
+        ><button class="boxes">Google Search</button></a
+      >
+      <a href="https://www.nhl.com/"
+        ><button class="boxes">I'm feeling lucky</button></a
+      >
+    </main>
+    <nav class="navbottom">
+      <ul>
+        <li><a href="">Advertising</a></li>
+        <li><a href="">Business</a></li>
+        <li><a href="">How Search works</a></li>
+        <li style="float: right"><a href="">Settings</a></li>
+        <li style="float: right"><a href="">Terms</a></li>
+        <li style="float: right"><a href="">Privacy</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>
